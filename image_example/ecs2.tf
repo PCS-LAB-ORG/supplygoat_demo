@@ -15,4 +15,7 @@ resource "aws_ecs_task_definition" "service" {
       ]
     }
   ])
+  tags = {
+    yor_trace = "f6ec02fd-9187-4f04-af21-dac3cc31025f"
+  }
 }
